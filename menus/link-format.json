@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Replace Link Format",
+        "command": "link-format:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "link-format",
+          "submenu": [
+            {
+              "label": "Replace Link Format",
+              "command": "link-format:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
