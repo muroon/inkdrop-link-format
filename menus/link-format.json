@@ -3,7 +3,7 @@
     ".CodeMirror": [
       {
         "label": "Replace Link Format",
-        "command": "link-format:toggle"
+        "command": "link-format:replace"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Replace Link Format",
-              "command": "link-format:toggle"
+              "command": "link-format:replace"
             }
           ]
         }
