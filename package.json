@@ -9,5 +9,14 @@
   "engines": {
     "inkdrop": "^5.x"
   },
-  "dependencies": {}
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
 }
