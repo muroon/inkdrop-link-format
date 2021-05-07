@@ -14,6 +14,22 @@ test('replace Test', () => {
     const replaceText = "target-site";
     const answer = "target-site [no-change](https://target.com) https://other.com";
     expect(replace(text, target, replaceText)).toEqual(answer);
+
+    const text2 = "https://target.com";
+    const answer2 = "target-site";
+    expect(replace(text2, target, replaceText)).toEqual(answer2);
+
+    const text3 = "](https://target.com";
+    const answer3 = "](target-site";
+    expect(replace(text3, target, replaceText)).toEqual(answer3);
+
+    const text4 = "[no-change](https://target.com)";
+    const answer4 = text4;
+    expect(replace(text4, target, replaceText)).toEqual(answer4);
+
+    const text5 = "https://t.com";
+    const answer5 = text5;
+    expect(replace(text5, target, replaceText)).toEqual(answer5);
 });
 
 test('fetchAllUrls Test', () => {
