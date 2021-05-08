@@ -2,9 +2,9 @@
   "name": "link-format",
   "main": "./lib/index",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Replaces URLs as a Markdown link",
   "keywords": [],
-  "repository": "https://github.com/inkdropapp/link-format",
+  "repository": "https://github.com/muroon/inkdrop-link-format",
   "license": "MIT",
   "engines": {
     "inkdrop": "^5.x"

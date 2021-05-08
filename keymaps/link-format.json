@@ -1,5 +1,5 @@
 {
   "body": {
-    "ctrl-alt-l": "link-format:toggle"
+    "ctrl-alt-l": "link-format:replace"
   }
 }

@@ -12,13 +12,8 @@
       "label": "Plugins",
       "submenu": [
         {
-          "label": "link-format",
-          "submenu": [
-            {
-              "label": "Replace Link Format",
-              "command": "link-format:replace"
-            }
-          ]
+          "label": "Replace Link Format",
+          "command": "link-format:replace"
         }
       ]
     }
