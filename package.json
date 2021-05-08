@@ -10,14 +10,22 @@
     "inkdrop": "^5.x"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint:eslint": "npx eslint \"lib/*.js\"",
+    "lint:prettier": "npx prettier --check ./lib",
+    "fix:eslint": "npx eslint \"lib/*.js\" --fix",
+    "fix:prettier": "npx prettier --write ./lib"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.1",
     "babel-jest": "^26.6.3",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.23.2",
     "jest": "^26.6.3",
-    "jest-fetch-mock": "^3.0.3"
+    "jest-fetch-mock": "^3.0.3",
+    "prettier": "^2.2.1"
   }
 }
