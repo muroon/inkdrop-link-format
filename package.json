@@ -1,7 +1,7 @@
 {
   "name": "link-format",
   "main": "./lib/index",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replaces URLs as a Markdown link",
   "keywords": [],
   "repository": "https://github.com/muroon/inkdrop-link-format",
