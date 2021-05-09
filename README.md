@@ -1,7 +1,10 @@
 # inkdrop link-format
 
 A plugin for [Inkdrop](https://www.inkdrop.info/) which replace URL as a Markdown link.
-This fetches the title from the URL web page and uses it as the title for Markdown link.
+
+- This changes the non-Markdown Link URL that already exists in Inkdrop's active editor to a Markdown link.
+- This fetches the title from the URL web page and uses it as the title for Markdown link.
+- If you have multiple URLs to change, link-format can change them at once. 
 
 <img width="679" alt="before-after" src="https://user-images.githubusercontent.com/301822/117555602-886a0100-b09b-11eb-9759-ab40e8637caf.png">
 
